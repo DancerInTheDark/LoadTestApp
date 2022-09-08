@@ -1,1 +1,1 @@
-http://localhost:8080/api/v1/student
+http://{your_ip_address}:8080/api/v1/student
