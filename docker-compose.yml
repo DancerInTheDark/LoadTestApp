@@ -1,0 +1,10 @@
+version: '3'
+services:
+  exrate:
+    container_name: "loadtest"
+    image: "loadtest"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
